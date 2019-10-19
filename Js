@@ -1,0 +1,12 @@
+var quotes = [
+  '"When I stand before God at the end of my life, I would hope that I would not have a single bit of talent left and could say, I used everything you gave me."','Nothing is impossible, the word itself says, “I\’m possible!”','I\’ve learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.','How wonderful it is that nobody need wait a single moment before starting to improve the world.','I didn\’t fail the test. I just found 100 ways to do it wrong.','Every strike brings me closer to the next home run.','If you can dream it, you can achieve it.','I\’ve missed more than 9000 shots in my career. I\’ve lost almost 300 games. 26 times I’ve been trusted to take the game winning shot and missed. I\’ve failed over and over and over again in my life. And that is why I succeed.','Life is what happens to you while you’re busy making other plans.','Start where you are. Use what you have. Do what you can.','Every child is an artist. The problem is how to remain an artist once he grows up.','The battles that count aren’t the ones for gold medals. The struggles within yourself–the invisible battles inside all of us–that’s where it’s at.','Either you run the day, or the day runs you.','each thy tongue to say, “I do not know,” and thous shalt progress.'
+]
+var authors = ['- Marie Curie','- Confucius','- Wayne Gretzky','- Anais Nin','-Leonardo da Vinci', '- Zig Ziglar','- Stephen Covey','- Ann Landers','- Maimonides','- George Addair','- Henry David Thoreau','- Unknown','-Ann Landers','- Kevin Kruse']
+var colors = ['#16a085', '#27ae60', '#2c3e50', '#f39c12', '#e74c3c', '#9b59b6', '#FB6964', '#342224', '#472E32', '#BDBB99', '#77B1A9', '#73A857','#342224'];
+let newQuote = ()=>{
+  var randomNumber = Math.floor(Math.random() * (quotes.length));
+  document.getElementById('text').innerHTML = quotes[randomNumber]; 
+  document.getElementById('author').innerHTML = authors[randomNumber];
+ document.getElementById('new-quote').style.backgroundColor = colors[randomNumber]; document.getElementById('body').style.backgroundColor = colors[randomNumber];
+document.getElementById('tumblr-quote').style.backgroundColor = colors[randomNumber]; document.getElementById('tweet-quote').style.backgroundColor = colors[randomNumber];
+};
