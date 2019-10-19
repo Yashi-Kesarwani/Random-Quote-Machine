@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(52,34,36);
+}
+#quote-box {
+  margin-top: 100px;
+  margin-left: 350px;
+  margin-bottom: 100px;
+  padding: 50px;
+  background-color: white;
+  max-width: 500px;  
+}
+#text {
+  font-size: 25px;
+  font-weight: bold;
+}
+#author {
+  text-align: right;
+}
+#new-quote {
+  margin-top: 20px;
+  margin-left: 400px;
+  padding: 10px;
+  background-color: rgb(52,34,36);
+  color: white;
+}
+#tweet-quote {
+  padding-left: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: rgb(52,34,36);
+  color: white;
+}
+#tumblr-quote {
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 10px;
+  background-color: rgb(52,34,36);
+  color: white;
+}
+#footer {
+  padding-bottom: 0px;
+  font-family: Sans-serif;
+  text-align: center;
+  color: white;
+}
